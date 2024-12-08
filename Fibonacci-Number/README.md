@@ -18,9 +18,32 @@
 
 Given a non-negative integer `n`, find the `n`th Fibonacci number. The Fibonacci sequence is defined as:
 
-- F(0) = 0
-- F(1) = 1
+- F(0) = 0, F(1) = 1
 - F(n) = F(n - 1) + F(n - 2) for n >= 2
+
+Given `n`, return the `n`th Fibonacci number. 0-indexed.
+
+## Constraints
+
+- `0 <= n <= 30`
+
+## Example
+
+**Input:**
+
+```plaintext
+n = 2
+```
+
+**Output:**
+
+```plaintext
+1
+```
+
+**Explanation:**
+
+Because `F(2) = F(1) + F(0) = 1 + 0 = 1`.
 
 ## Overview of Fibonacci Calculation Approaches
 
