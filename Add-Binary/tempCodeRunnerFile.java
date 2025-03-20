@@ -1,1 +1,0 @@
-msbPosition(xor)+1

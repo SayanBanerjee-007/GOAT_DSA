@@ -18,6 +18,7 @@ public class HashMapCode {
         public int size;
         private LinkedList<Node>[] bucket;
 
+        @SuppressWarnings("unchecked")
         public HashMap() {
             this.size = 0;
             this.bucketSize = 4;
@@ -42,6 +43,7 @@ public class HashMapCode {
             return -1;
         }
 
+        @SuppressWarnings("unchecked")
         private void rehash() {
             LinkedList<Node> oldBucket[] = bucket;
             bucketSize <<= 1;

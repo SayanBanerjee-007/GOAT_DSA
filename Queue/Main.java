@@ -1,13 +1,10 @@
 package Queue;
 
-import java.util.Arrays;
-
 public class Main {
     private class Queue {
         private final int length = 3;
         private final int queue[] = new int[length];
         private int front = -1, rear = -1;
-        private int size = 0;
 
         public int size() {
             if (front == -1)
